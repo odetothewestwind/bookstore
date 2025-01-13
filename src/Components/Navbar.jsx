@@ -25,15 +25,15 @@ const handleScroll = ()=>{
 
   const navitems=(
     <>
-       <li><a>Home</a></li>
-      <li><a>Course</a></li> 
+       <li><a href='/'>Home</a></li>
+      <li><a href='/Course'>Course</a></li> 
       <li><a>Contact</a></li>
       <li><a>About</a></li>
     </>
   )
   return (
   <>
-    <div className={`max-w-screen-2xl container mx-auto md:px-20 px-4 fixed left-0 right-0 top-0 ${
+    <div className={`max-w-screen-2xl container mx-auto md:px-20 px-4 fixed left-0 right-0 top-0 z-50 ${
       sticky
       ?"sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out"
       :"" 
