@@ -6,7 +6,7 @@ import Footer from '../Components/Footer'
 
 
 function Courses() {
-    console.log(list);
+   
     
   return (
     <>
